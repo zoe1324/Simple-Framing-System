@@ -5,5 +5,6 @@ The aim of this project was to develop a Frame cost estimator for different size
 
 Website link:
 https://devweb2020.cis.strath.ac.uk/~xeb18139/qjvhgeehwbyfdnt/WADAss1/
-GetRequests:
+
+Get Requests:
 https://devweb2020.cis.strath.ac.uk/~xeb18139/qjvhgeehwbyfdnt/WADAss1/getrequests.php
