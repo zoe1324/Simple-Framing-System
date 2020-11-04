@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame Price Estimator</title>
+</head>
+<body>
+<h1> Frame Price Estimator </h1>
+<form action="framing.php" method=post>
+    Frame of size:
+    <input type="text" name="width" value="">
+    x
+    <input type="text" name="height" value="">
+    <select name="units">
+        <option value="" selected disabled>Select
+        <option value="mm">mm</option>
+        <option value="cm">cm</option>
+        <option value="inch">inch</option>
+    </select><br><br>
+    Postage:
+    <input type="radio" id="standard" name="postage" value="standard">
+    <label for="standard">Standard</label>
+    <input type="radio" id="rapid" name="postage" value="rapid">
+    <label for="rapid">Rapid</label><br>
+    <br>
+    Enter Email For a Quote:
+    <input type="text" name="email" value=""><br><br>
+    <input type="checkbox" name="saveCalc" id="saveCalc" value="saveCalc">
+    <label for="saveCalc">Receive mail and future information about my framing calculation</label><br><br>
+    <input type="submit"/><br><br>
+</form>
+</body>
+</html>
